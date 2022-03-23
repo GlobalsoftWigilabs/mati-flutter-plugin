@@ -16,7 +16,7 @@ Flutter plugin for Mati SDK
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '12'
-  s.dependency = { :git => 'https://github.com/GetMetaMap/mati-ios-sdk', :tag => '3.9.3' }
+  s.source = { :git => 'https://github.com/GetMetaMap/mati-ios-sdk', :tag => '3.9.3' }
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
